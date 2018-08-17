@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#4e4d4d"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Silahkan Edit/Hapus Data" />
+    
+    <EditText
+        android:id="@+id/updel_nama"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#999"
+        android:hint="NAMA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/updel_nrp"
+        android:layout_marginTop="20dp"
+        android:hint="NRP"
+        android:textColorHint="#999"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <Button
+        android:id="@+id/btnUpdate"
+        android:onClick="btnCreate"
+        android:textColor="#fff"
+        android:background="#787474"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UBAH"/>
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:onClick="btnCreate"
+        android:textColor="#fff"
+        android:background="#787474"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HAPUS"/>
+
+
+</LinearLayout>
